@@ -1,0 +1,138 @@
+*{ margin: 0;
+   padding: 0 ; 
+   font-family: "Montserrat", sans-serif;
+   color: #989D9C;
+}
+
+
+
+
+header{
+   margin: 44px 0 0 76px;
+   font-size: 20px;
+   font-weight: 600;
+   color: #989D9C;
+   cursor: pointer;
+}
+
+.link-header{ 
+    margin-right: 23px;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 600;
+    border:none;
+    background: 
+    #665AE1;
+    color: #ffffff;
+    border-radius: 23px;
+    width: 112px;
+    height: 26px;
+    cursor: pointer;
+    }
+
+    button:hover{
+        background: #ADFF00;
+    }
+
+    button:active{
+        opacity: 0.5;
+    }
+
+    img{ 
+        width: 490px;
+        margin: 100px 0 0 125px;
+        display: inline-block;
+    }
+
+    section{
+        display: inline-block;
+        position: absolute;
+        margin: 100px 0 0 125px;
+    }
+
+    h1{ color: #515151;
+        font-size: 80px;
+        font-weight: 900;
+        line-height: 90px;}
+
+    h2{ color: #515151;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 55px;
+    }
+
+    p{
+        color: #848484;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        width: 415px;
+        margin-top: 20px;
+    }
+
+    .button-section{
+
+        width: 239px;
+        height: 64px;
+        background: #ADFF00;
+        color: #000000;
+        font-weight: 700;
+        font-size: 28px;
+        border-radius: 40.5px;
+        filter: drop-shadow(2px 4px 6px black);
+        margin-top: 25px;
+
+    }
+
+    @media screen and (max-width:800px) {
+        
+header{
+    display:none;
+}
+
+img{ 
+    width: 350px;
+    height: auto;
+    margin: 140px 0 0 25px;
+    display: block;
+}
+
+section{
+    display: block;
+    position: absolute;
+    margin: 40px 0 0 63px;
+}
+h1{
+font-size: 50px;
+
+}
+
+h2{
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+}
+
+p{
+    display:none;
+}
+
+.button-section{    
+    display: block;
+    margin: 35px auto;
+}
+
+}
+ 
+
+
+
+
+
+
+
+
